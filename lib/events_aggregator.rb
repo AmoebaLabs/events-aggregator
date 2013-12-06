@@ -47,6 +47,9 @@ class EventsAggregator
       @outputFile = './out.ical'
     end
 
+    cal.x_wr_calname = 'SF Startup Events (by Amoeba Labs)'
+    cal.x_wr_caldesc = 'Startup Events in and around San Francisco, curated by Amoeba Labs http://amoe.ba'
+
     File.open(@outputFile, 'w') {|f| f.write(cal.to_ical) }
   end
 
