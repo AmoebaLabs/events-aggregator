@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    executable (1.2.1)
+    icalendar (1.4.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  executable
+  icalendar
